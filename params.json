@@ -1,0 +1,6 @@
+{
+  "name": "Webkriti",
+  "tagline": "Aparoksha-16 Event",
+  "body": "## Webkriti is a theme based UI design contest for front-end developers.\r\n\r\n##Organisers\r\n* Bharat Gupta IIT2014156 - 9045907587\r\n* Yogesh Gupta IRM2014004 - 9404173123\r\n* Ajay Pilaniya IRM2014007- 9783123208\r\n* M Dileep     IIT2015035  -   9628386148\r\n\r\n##Rules and Instructions \r\n* There are no preliminary rounds.\r\n* Contestants can participate individually or in a team of two.\r\n* The theme for the event will be disclosed ,few hours prior to the start of the event.\r\n* The event judging will be done online.\r\n* Contestants have to host their work online (Eg.using gh-pages (github), codepen, jsfiddle ) and mail the links to irm2014004@iiita.ac.in.\r\n* For more information on using gh-pages , follow the link - https://pages.github.com/.\r\n* Use of frameworks such as bootstrap, jquery,materialize CSS is allowed. You may refer to other templates,websites for reference. However, code duplication is prohibited and will lead to disqualification.\r\n* Contestants are required to make separate files for CSS, JS, jquery etc. for structured code.\r\n\r\n##Judging Criteria\r\n* Code readability.\r\n* Design and usability.\r\n* Responsiveness (optional).",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
