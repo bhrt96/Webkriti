@@ -1,0 +1,434 @@
+* {
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	background: #212121;
+	font-family: "Segoe UI Light";
+}
+
+.home{
+	height: 100%;
+	width: 100%;
+}
+
+.home img {
+	height: 100%;
+	width: 100%;
+}
+
+ng-view {
+	display: block;
+	width: 100%;
+	min-height: 100%;
+}
+
+.items_collection {
+	margin-bottom: 70px;
+}
+
+.item_wrapper {
+	float: left;
+	padding: 10px;
+	cursor: pointer;
+	overflow: hidden;
+	margin: 15px 0;
+	height: 350px;
+}
+
+.item_display {
+	position: relative;
+	height: 85%;
+	width: 100%;
+	/*background: #483434;*/
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.item_display #buy_button {
+	position: absolute;
+	top: 5px;
+	right: -90px;
+	height: 25px;
+	width: 30px;
+	cursor: pointer;
+	transform: rotateY(180deg);
+	transition: all 0.3s ease-in;
+}
+
+.item_display:hover {
+	background: #483434;
+}
+
+.item_display:hover #buy_button {
+	top: 15px;
+	right: 15px;
+}
+
+.item_display #compare_button {
+	position: absolute;
+	top: 15px;
+	right: -50px;
+	height: 25px;
+	width: 30px;
+	cursor: pointer;
+	transform: rotateY(180deg);
+	transition: all 0.3s ease-in;
+}
+
+.item_display:hover #compare_button {
+	right: 55px;
+}
+
+.item_display img#display_image {
+	height: 100%;
+	width: 100%;
+}
+
+.item_desc {
+	position: relative;
+	height: 50px;
+	width: 100%;
+	padding: 5px;
+}
+
+.item_desc p#name {
+	color: white;
+	font-size: 1.3em;
+	font-weight: bolder;
+}
+
+.item_desc p#desc {
+	color: white;
+	font-weight: 500;
+	line-height: 0.8em;
+}
+
+.item_desc p#price {
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+	color: white;
+	font-size: 1.2em;
+	font-weight: 400;
+}
+
+.book {
+	height: 400px;
+}
+
+.footer {
+	position: fixed;
+	top: 0;
+	height: 70px;
+	width: 100%;
+	background: rgba(72, 52, 52, 0.9);
+	z-index: 10;
+	transition: all 0.2s ease-in-out;
+}
+
+.footer a#logo {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 15%;
+}
+
+
+.footer a#logo  p{
+	font-size: 3em;
+	text-indent: 10px;
+	font-weight: bold;
+}
+
+.footer a img {
+	height: 100%;
+	width: 100%;
+}
+
+.footer ul {
+	display: block;
+	color: white;
+	font-size: 1.2em;
+}
+
+.footer ul li {
+	display: inline-block;
+	position: relative;
+	margin: 0px 30px;
+	overflow: hidden;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.footer ul li.active {
+	font-weight: bold;
+	color: #5C5EDC;
+}
+
+.footer ul li span {
+	position: absolute;
+	left: -100%;
+	bottom: -3px;
+	width: 100%;
+	border: 3px solid #5C5EDC;
+	transition: all 0.2s ease-in;
+}
+
+.footer ul li:hover span {
+	left: 0%;
+}
+
+.footer ul li span.active_tab {
+	left: 0%;
+}
+
+.cart_button {
+	position: absolute;
+	top: 0;
+	right: 0;
+	/*background-color: rgba(255, 255, 255, 0.4);*/
+	height: 100%;
+	width: 190px;
+	cursor: pointer;
+}
+
+.cart_button a {
+	float: right;
+	width: 50px;
+}
+
+.cart_button a#cart_button {
+	height: 100%;
+	width: 80px;
+	margin-left: 10px;
+	background-color: #24252A;
+}
+
+.cart_button a#cart_button img {
+	position: relative;
+	top: 15%;
+	left: 15%;
+	height: 70%;
+	width: 70%;
+	z-index: 0;
+}
+
+.cart_button p#cart_items_no {
+	position: absolute;
+	top: 4px;
+	right: 10px;
+	font-weight: 600;
+	border-radius: 50%;
+	z-index: 2;
+	color: #039BE5;
+	transition: all 0.1s ease-in-out;
+}
+
+.cart_button .back {
+	position: absolute;
+	top: 8px;
+	right: 10.5px;
+	height: 15px;
+	width: 15px;
+	background: white;
+	border-radius: 50%;
+	z-index: 1;
+	transition: all 0.1s ease-in-out;
+}
+
+#cart.modal {
+	top: 0 !important;
+	width: 100%;
+	/*width: auto !important;*/
+	max-height: 100%;
+	background: transparent;
+	box-shadow: none;
+	/*background: rgba(255, 255, 255, 0.3);*/
+	/*height: 100%;*/
+	overflow-x: hidden;
+}
+
+#cart.modal .close_button {
+	position: absolute;
+	top: 0px;
+	right: -5px;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	z-index: 12;
+}
+
+#cart.modal .close_button:after, #cart.modal .close_button:before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	border:2px black solid;
+	width: 100%;
+}
+
+#cart.modal .close_button:after {
+	transform: rotateZ(-45deg);
+}
+
+#cart.modal .close_button:before {
+	transform: rotateZ(45deg);
+}
+
+#cart.modal .cart_item {
+	float: left;
+	position: relative;
+	height: 300px;
+	background-color: yellow;
+}
+
+.modal .cart_item img {
+	height: 80%;
+	width: 100%;
+}
+
+.modal .cart_item p#name {
+	font-size: 1.8em;
+	font-weight: 500;
+}
+
+.modal .cart_item p#desc {
+	/*font-size: 1.2em;*/
+	line-height: 50%;
+}
+
+.modal .cart_item p#price {
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+	font-weight: 400;
+	font-size: 1.5em
+}
+
+#description.modal {
+	top: 15% !important;
+	width: 80%;
+	max-height: 70%;
+	height: 70%;
+	overflow-x: hidden;
+}
+
+#description.modal .side_panel {
+	float: left;
+	width: 40%;
+	height: 100%;
+	border-right: 3px grey solid;
+	padding: 5px;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.modal .side_panel .slider .slides {
+	background-color: transparent;
+}
+
+.modal .side_panel .slider .slides li {
+	height: 100%;
+}
+
+.modal .side_panel ul.indicators {
+	z-index: 11;
+}
+
+#description.modal .main_panel {
+	float: left;
+	width: 60%;
+	height: 100%;
+	padding: 10px;
+	/*background-color: brown;*/
+}
+
+.modal .main_panel .head {
+	position: absolute;
+	top: 0;
+	margin-left: 15px;
+	width: 55%;
+	height: 20%;
+	border-bottom: grey 2px solid;
+}
+
+.modal .main_panel .head p#head {
+	font-size: 3em;
+	text-indent: 10px;
+}
+
+.modal .main_panel .head p#short_desc {
+	font-size: 1.2em;
+	text-indent: 10px; 
+	line-height: 50%;
+}
+
+.header {
+	position: fixed;
+	top: -80px;
+	height: 80px;
+	width: 100%;
+	background: rgba(72, 52, 52, 0.8);
+	z-index: 10;
+	transition: all 0.2s ease-in;
+}
+
+.header .compare_button {
+	float: right;
+	background-color: rgba(255, 255, 255, 0.4);
+	padding: 5px;
+	font-weight: bold;
+	margin: 24px 5px;
+}
+
+.header .item {
+	position: relative;
+	float: right;
+	height: 65px;
+	width: 60px;
+	margin: 10px 5px 5px 5px;
+	background-color: rgba(255, 255, 255, 0.4);
+	padding: 2px;
+}
+
+.header .item .close_button {
+	position: absolute;
+	top: -7.5px;
+	right: -7.5px;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	cursor: pointer;
+	background-color: grey;	
+}
+
+.header .item .close_button:after, .header .item .close_button:before {
+	content: "";
+	position: absolute;
+	top: 45%;
+	right: 1.5px;
+	border:1px black solid;
+	width: 80%;
+}
+
+.header .item .close_button:after {
+	transform: rotateZ(-45deg);
+}
+
+.header .item .close_button:before {
+	transform: rotateZ(45deg);
+}
+
+.header .item img {
+	height: 100%;
+	width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+	.item_wrapper {
+		height: 300px;
+	}
+}

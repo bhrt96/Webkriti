@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html ng-app="iiita-cart">
+	<head>
+		<base href="/">
+		<title>IIITA-Cart</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="icon" href="images/logo.png">
+		<!--Import Google Icon Font-->
+    	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    	<!--Import materialize.css-->
+    	<link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+		<script type="text/javascript" src="js/materialize.js"></script>
+		<script type="text/javascript" src="js/angular.js"></script>
+		<script type="text/javascript" src="js/angular-route.js"></script>
+		<!-- Controllers -->
+		<script type="text/javascript" src="controllers/mainCtrl.js"></script>
+		<!-- Services -->
+
+		<script type="text/javascript" src="app/app.js"></script>
+		<script type="text/javascript" src="app/app-routes.js"></script>
+	</head>
+	<body ng-controller="MainController as main">
+		<div class="home row" id="home">
+			<img src="images/home_pic.jpg">
+		</div><!-- 
+		<div class="navbar">
+			<img src="images/logo_text.png" class="center-block">
+		</div> -->
+		
+		<ng-view>
+		</ng-view>
+		
+		<div class="footer valign-wrapper hide-on-small-only">
+			<a href="#home" id="logo">
+				<p class="valign white-text">IIITA Cart</p>
+				<!-- <img src="images/logo_text.png"> -->
+			</a>
+			<ul class="center-block valign">
+				<li ng-click="main.open_cat('')" class="active">All<span class="active_tab"></span></li>
+				<li ng-click="main.open_cat('books')">Books<span></span></li>
+				<li ng-click="main.open_cat('electronics')">Electronics<span></span></li>
+				<li ng-click="main.open_cat('sports')">Sports<span></span></li>
+				<li ng-click="main.open_cat('others')">Others<span></span></li>
+			</ul>
+			<div class="cart_button valign-wrapper">
+				<a href="#about_us" class="tooltipped modal-trigger center valign"  data-position="bottom" data-delay="50" data-tooltip="About Us">
+					<i class="material-icons small">info</i>
+				</a>
+				<a href="#contact_us" class="tooltipped modal-trigger center valign" data-position="bottom" data-delay="50" data-tooltip="Contact Us">
+					<i class="material-icons small">call</i>
+				</a>
+				<p id="cart_items_no">{{main.cart_items_no}}</p>
+				</p>
+				<a id="cart_button" href="#cart" class="modal-trigger valign" ng-click='check_cart()'>
+					<img src="images/logo.png">
+				</a>
+			</div>
+		</div>
+
+		<div id="description" class="modal">
+			<div class="side_panel">
+				<div class="slider">
+			    <ul class="slides">
+			      <li>
+			        <img src="images/logo.png">
+			      </li>
+			      <li>
+			        <img src="images/logo.png">
+			      </li>
+			      <li>
+			        <img src="images/logo.png">
+			      </li>
+			      <li>
+			        <img src="images/logo.png">
+			      </li>
+			    </ul>
+			  </div>
+			</div>
+			<div class="main_panel">
+				<div class="head">
+					<p id="head">Adidas</p>
+					<p id="short_desc">Shoes</p>
+				</div>
+			</div>
+		</div>		
+
+		<div id="cart" class="row modal">
+			<div class="close_button" ng-click='main.close_cart()'></div>
+		</div>
+
+		<div class="header">
+			<div class="compare_button">
+				Compare
+			</div>
+		</div>
+
+		<div id="about_us" class="modal">
+			<div class="modal-content">
+				<h4 class="center-align">About Us</h4>
+				<p class="center-align">
+					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+				</p>
+			</div>
+		</div>
+
+		<div id="contact_us" class="modal">
+			<div class="modal-content">
+				<h4 class="center-align">Contact Us</h4>
+				<h5 class="center-align">
+					Parshant Singh - 8556863442
+				</h5>
+			</div>
+		</div>
+	</body>
+</html>
