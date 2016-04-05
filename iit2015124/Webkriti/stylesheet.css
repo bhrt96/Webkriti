@@ -1,0 +1,983 @@
+#pic_1{
+	background-image: url('images/new_trend.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#pic_2{
+	background-image: url('images/jean.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover; 
+	background-size: cover;
+}
+
+#pic_3{
+	background-image: url('images/kids.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover; 
+	background-size: cover;
+}
+#add1{
+	margin-top:10%;
+	margin-left: 5%;
+}
+
+#add2{
+	margin-top: 10%;
+	margin-right: 5%;	
+	float: right;	
+}
+
+#add3{
+	margin-top: 10%;
+	margin-right: 5%;
+	float: right;
+}
+.heading_1, .heading_2	{
+	color:#ccc;
+}
+
+.heading_1{
+	font-weight: 950 !important;  
+}
+.heading_2{
+	font-weight: 550 !important;
+}
+
+button{
+	margin-top: 2%;
+	margin-left: 30px;
+	background-color: #e9e9e9;
+	padding: 20px; 
+	opacity: .8;
+	border-radius: 0px !important;
+}
+
+button:hover{
+	background-color: #fff;
+
+	opacity: 1;
+}
+
+#new_trend{
+	background-image: url('images/trendy.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#festival{
+	background-image: url('images/festival.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#formal{
+	background-image: url('images/formal.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#summer_offer{
+	background-image: url('images/summer.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin-bottom:20px;
+}
+
+#add_123{
+	margin-bottom: 20px;
+}
+#new_trend{
+	margin-right: 2%;
+	margin-left: 2%;
+}
+#formal{
+	margin-right: 2%;
+	margin-left: 2%;
+}
+#festival{
+	margin-right: 1%;
+	margin-left: 1%;
+}
+
+#summer_add{
+	float:right;
+	margin-right: 2%;
+}
+a:link{
+	color:#999;
+	font-weight: 600 !important; 
+}
+.table tr td{
+	border: none !important;
+}
+
+.suscribe{
+	float:right;
+	margin-right: 2%;	
+}
+
+footer{
+	border-bottom: 2px solid #999;
+	padding-top: 2%;
+	padding-bottom: 4%;
+	background-color: #e5e5e5;
+}
+#heading{
+	font-family: 'Indie Flower', cursive;
+	font-size: 30px;
+	
+}
+#heading:hover{
+	text-decoration:none;
+	color:#999;
+}
+
+.hover_div{
+	text-align: center;
+	color:#404040;
+	opacity: .8;
+}
+
+.hover_div .btn_add{
+	margin-top: 30%;
+}
+
+#head_new{
+	margin-left: 2%;
+	font-size: 100%;
+}
+
+#new_1{
+	background-image: url('images/20160403024217.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#new_2{
+	background-image: url('images/20160403024246.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#new_3{
+	background-image: url('images/20160403024301.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#new_4{
+	background-image: url('images/20160403024323.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#new_5{
+	background-image: url('images/20160403024347.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#new_6{
+	background-image: url('images/20160403024413.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#new_7{
+	background-image: url('images/20160403024444.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#new_8{
+	background-image: url('images/20160403024512.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#new_9{
+	background-image: url('images/20160403024622.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+.new_arrival{
+	margin-right: 3%;
+	margin-left: 3%;
+}
+
+.new_page{
+	margin-top: 3%;
+}
+
+#new_m_1{
+	background-image: url('images/158120022-front-grid.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#new_m_2{
+	background-image: url('images/219750003-front-grid.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#new_m_3{
+	background-image: url('images/224980002-front-grid.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#new_m_4{
+	background-image: url('images/226430000-front-grid.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#new_m_5{
+	background-image: url('images/232400002-front-grid.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#new_m_6{
+	background-image: url('images/284960009-front-grid.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#new_m_7{
+	background-image: url('images/285390009-front-grid.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#new_m_8{
+	background-image: url('images/723340160-front-grid.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#new_m_9{
+	background-image: url('images/c');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+#jean_m_1{
+	background-image: url('images/005012213-front-grid.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+#jean_m_2{
+	background-image: url('images/045111850-front-grid.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+#jean_m_3{
+	background-image: url('images/045112001-front-grid.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+#jean_m_4{
+	background-image: url('images/131120034-front-grid.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+#jean_m_5{
+	background-image: url('images/131120035-front-grid.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+#jean_m_6{
+	background-image: url('images/131120036-front-grid.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+#jean_m_7{
+	background-image: url('images/181730029-2015-fall-front-grid.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+#jean_m_8{
+	background-image: url('images/197150006-front-grid.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+#jean_m_9{
+	background-image: url('images/197150007-front-grid.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+#jean_w_1{
+	background-image: url('images/177780084-front-grid.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+#jean_w_2{
+	background-image: url('images/177800007-front-grid.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+#jean_w_3{
+	background-image: url('images/228530011-front-grid.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#jean_w_4{
+	background-image: url('images/188840002-front-grid.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#jean_w_5{
+	background-image: url('images/196270028-front-grid.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#jean_w_6{
+	background-image: url('images/228610003-front-grid.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#jean_w_7{
+	background-image: url('images/198890002-front-grid.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#jean_w_8{
+	background-image: url('images/227840000-front-grid.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#jean_w_9{
+	background-image: url('images/198390000-front-grid.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#kid_1{
+	background-image: url('images/116195M99-front-grid.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#kid_2{
+	background-image: url('images/773570014-front-grid.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#kid_3{
+	background-image: url('images/BG3903M99-front-grid.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#kid_4{
+	background-image: url('images/773620026-front-grid.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#kid_5{
+	background-image: url('images/414073D18-2015-spring-front-grid.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#kid_6{
+	background-image: url('images/773630006-front-grid.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#kid_7{
+	background-image: url('images/773630013-front-grid.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#kid_8{
+	background-image: url('images/BG3676L64-front-grid.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#kid_9{
+	background-image: url('images/BG3907M70-2015-spring-front-grid.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+#trend_1{
+	background-image: url('images/227510002-front-grid.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#trend_2{
+	background-image: url('images/229740003-front-grid.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#trend_3{
+	background-image: url('images/172690013-front-grid.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#trend_4{
+	background-image: url('images/224700001-front-grid.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#trend_5{
+	background-image: url('images/160970000-2014-fall-front-grid.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#trend_6{
+	background-image: url('images/658160168-front-grid.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#trend_7{
+	background-image: url('images/365550195-front-grid.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#trend_8{
+	background-image: url('images/247930000-front-grid.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#trend_9{
+	background-image: url('images/192920000-front-grid.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#fest_1{
+	background-image: url('images/1-1-aisha-4e-25-laazreefashion-275x340-imaeeh7sexh2zgpp.jpeg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#fest_2{
+	background-image: url('images/1-1-gs100444-prafful-400x400-imaean9hmzpy5emx.jpeg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#fest_3{
+	background-image: url('images/1-1-hg-1022-dabhi-275x340-imae8q4dwmhbxufg.jpeg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#fest_4{
+	background-image: url('images/sva-balck-heavy-h-p-d-275x340-imaegfuegn7k6fdh.jpeg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#fest_5{
+	background-image: url('images/tco-212-trishulom-cloth-s-online-275x340-imaeaqjmwzrva3cm.jpeg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#fest_6{
+	background-image: url('images/bd-jn2000-buyzdeal-275x340-imaefy9djpnd5zyq.jpeg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#fest_7{
+	background-image: url('images/Off-White-Red-Raw-silk-Designer-Mens-Sherwani.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#fest_8{
+	background-image: url('images/heading_58802612.jpeg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#fest_9{
+	background-image: url('images/1-indian-designer-dresses-for-kids-1.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+#for_1{
+	background-image: url('images/0c337928d2675d8a1c15a4a4e2621c4b.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#for_2{
+	background-image: url('images/images.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#for_3{
+	background-image: url('images/ls.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#for_4{
+	background-image: url('images/tom-ford-formalwear-mens-landing03.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#for_5{
+	background-image: url('images/Glamourland-dresscode-1.jpeg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#for_6{
+	background-image: url('images/new-arrival-most-popular-Wedding-Dress-Men-s-Formalwear-Wedding-Morning-Suits-Groom-s-Tuxedo-Custom.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#for_7{
+	background-image: url('images/Mark-McNairy-Fall-Winter.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#for_8{
+	background-image: url('images/images (1).jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#for_9{
+	background-image: url('images/6ced3b67ba672b42990af1816cdd508f.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+#sum_1{
+	background-image: url('images/36974558_011_a.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#sum_2{
+	background-image: url('images/38387114_011_0.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#sum_3{
+	background-image: url('images/38414066_030_a.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#sum_4{
+	background-image: url('images/38488698_020_a.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#sum_5{
+	background-image: url('images/325640023-front-grid.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#sum_6{
+	background-image: url('images/325700024-front-grid.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#sum_7{
+	background-image: url('images/319600032-front-grid.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#sum_8{
+	background-image: url('images/324790014-front-grid.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#sum_9{
+	background-image: url('images/163800029-front-grid.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}

@@ -1,0 +1,270 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Levi's Online Store</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Levis Online Store">
+    <meta name="author" content="D.Shanmukh">
+	
+<!-- Bootstrap style --> 
+    <link id="callCss" rel="stylesheet" href="..//bootstp/bootstrap.min.css" media="screen"/>
+    <link href="..//css/base.css" rel="stylesheet" media="screen"/>
+<!-- Bootstrap style responsive -->	
+	<link href="..//css/bootstrap-responsive.min.css" rel="stylesheet"/>
+	<link href="..//css/font-awesome.css" rel="stylesheet" type="text/css">
+<!-- Google-code-prettify -->	
+	<link href="..//js/google-code-prettify/prettify.css" rel="stylesheet"/>
+<!-- fav and touch icons -->
+    <link rel="shortcut icon" href="..//images/levis.jpg">
+	<style type="text/css" id="enject"></style>
+  </head>
+<body>
+<div id="header">
+<div class="container">
+<div id="welcomeLine" class="row">
+	<div class="span6">Welcome<strong> User!</strong></div>
+	<div class="span6">
+	<div class="pull-right">
+		<a href="register.html"><span class="btn btn-mini btn-success"><i class="icon-user icon-white"></i> Sign Up </span> </a> 
+		<a href="product_summary.html"><span class="btn btn-mini btn-primary"><i class="icon-shopping-cart icon-white"></i> [ 3 ] Itemes in your cart </span> </a>
+		<span class="btn btn-mini">Rs. 3499.00</span>
+			
+	</div>
+	</div>
+</div>
+<!-- Navbar ================================================== -->
+<div id="logoArea" class="navbar">
+<a id="smallScreen" data-target="#topMenu" data-toggle="collapse" class="btn btn-navbar">
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+</a>
+  <div class="navbar-inner">
+    <a class="brand" href="../../index.html"><img src="..//images/logo.jpg" alt="Bootsshop" id = "img1"/></a>
+    <ul id="topMenu" class="nav pull-center">
+	<li class=""><a href="products.html">Products</a></li>
+	 <li class=""><a href="products.html">Specials Offer</a></li>
+	 <li class=""><a href="aboutus.html">About Us</a></li>
+	 <li class=""><a href="contact.html">Contact</a></li>
+	 	 <li class=""><a href="faq.html">FAQ's</a></li>
+	 <form class="form-inline navbar-search" method="post" action="products.html" >
+		<input id="srchFld" class="srchTxt" type="text" placeholder="      Search jeans, clothing and more ..."/> 
+		  <button type="submit" id="submitButton" class="btn btn-primary">Go</button>
+    </form>
+	</ul>
+	<ul id="topMenu" class="nav pull-right">
+	 <li class="">
+	
+	 <a href="#login" role="button" data-toggle="modal" style="padding-right:0"><span class="btn btn-large btn-success">Login</span></a>
+	<div id="login" class="modal hide fade in" tabindex="-1" role="dialog" aria-labelledby="login" aria-hidden="false" >
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+			<h3>Login Block</h3>
+		  </div>
+		  <div class="modal-body">
+			<form class="form-horizontal loginFrm">
+			  <div class="control-group">								
+				<input type="text" id="inputEmail" placeholder="Email">
+			  </div>
+			  <div class="control-group">
+				<input type="password" id="inputPassword" placeholder="Password">
+			  </div>
+			  <div class="control-group">
+				<label class="checkbox">
+				<input type="checkbox"> Remember me
+				</label>
+			  </div>
+			</form>		
+			<button type="submit" class="btn btn-success">Sign in</button>
+			<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+		  </div>
+	</div>
+	</li>
+    </ul>
+  </div>
+</div>
+</div>
+<div class = "container">
+	<div class = "row">
+		
+		<div class = "span1">
+		</div>
+		<div class = "span6">
+			<ul><li><u><strong>20% off</strong> orders of Rs.2500. <strong>40%</strong> off orders of Rs.5500+. Use Code: <font color: "red"><strong><i>Aproksha16</i></strong></font></u></li></ul>
+		</div>
+		<div class = "span5">
+			<ul><li> <u><strong>Free Shipping</strong> on Orders of Rs.3999+</u></li></ul>
+		</div>
+		<div class = "span1">
+		</div>
+	</div>
+</div>
+</div>
+<!-- Header End====================================================================== -->
+<div id="mainBody">
+	<div class="container">
+	<div class="row">
+<!-- Sidebar ================================================== -->
+	<div id="sidebar" class="span3">
+		<div class="well well-small"><a id="myCart" href="product_summary.html"><img src="..//images/ico-cart.png" alt="cart">3 Items in your cart  <span class="badge badge-warning pull-right">Rs. 3499</span></a></div>
+		<ul id="sideManu" class="nav nav-tabs nav-stacked">
+			<li class="subMenu open"><a> Men (295)</a>
+				<ul>
+				<li><a class="active" href="products.html"><i class="icon-chevron-right"></i>Jeans (100) </a></li>
+				<li><a href="products.html"><i class="icon-chevron-right"></i>Shorts (30)</a></li>
+				<li><a href="products.html"><i class="icon-chevron-right"></i>Shirts & T-shirts(75)</a></li>
+				<li><a href="products.html"><i class="icon-chevron-right"></i>Jackets (45)</a></li>
+				<li><a href="products.html"><i class="icon-chevron-right"></i>Skinny(50)</a></li>
+				<li><a href="products.html"><i class="icon-chevron-right"></i>Slim (15)</a></li>
+				</ul>
+			</li>
+			<li class="subMenu"><a> Women (140) </a>
+			<ul>
+				<li><a href="products_women.html"><i class="icon-chevron-right"></i>Jeans (45)</a></li>
+				<li><a href="products_women.html"><i class="icon-chevron-right"></i>Sweat Shirts (8)</a></li>												
+				<li><a href="products_women.html"><i class="icon-chevron-right"></i>Shorts & Carps (25)</a></li>	
+				<li><a href="products_women.html"><i class="icon-chevron-right"></i>Shirts & Tops  (45)</a></li>
+				<li><a href="products_women.html"><i class="icon-chevron-right"></i>Skinny (6)</a></li>												
+				<li><a href="products_women.html"><i class="icon-chevron-right"></i>Bootcut (5)</a></li>												
+				<li><a href="products_women.html"><i class="icon-chevron-right"></i>Boyfriend (6)</a></li>												
+			</ul>
+			</li>
+			<li class="subMenu"><a>Kids (195)</a>
+				<ul>
+				<li><a href="products_kids.html"><i class="icon-chevron-right"></i>Jeans & Pants (35)</a></li>
+				<li><a href="products_kids.html"><i class="icon-chevron-right"></i>Shirts and Outer wear (80)</a></li>												
+				<li><a href="products_kids.html"><i class="icon-chevron-right"></i>Shorts (35)</a></li>	
+				<li><a href="products_kids.html"><i class="icon-chevron-right"></i>Jackets  (45)</a></li>
+				<li><a href="products_kids.html"><i class="icon-chevron-right"></i>See All</a></li>												
+			</ul>
+			</li>
+			<li class="subMenu"><a>Accessories (120)</a>
+				<ul  style="display:none">
+				<li><a href="products_access.html"><i class="icon-chevron-right"></i>Bags (35)</a></li>
+				<li><a href="products_access.html"><i class="icon-chevron-right"></i>Shoes (80)</a></li>												
+				<li><a href="products_access.html"><i class="icon-chevron-right"></i>Belts (35)</a></li>	
+				<li><a href="products_access.html"><i class="icon-chevron-right"></i>Scarvers  (45)</a></li>
+				<li><a href="products_access.html"><i class="icon-chevron-right"></i>Wallets</a></li>												
+			</ul>
+			</li>
+			<li class="subMenu"><a>Garments (45)</a>
+				<ul  style="display:none">
+				<li><a href="products_garments.html"><i class="icon-chevron-right"></i>Underwears (15)</a></li>
+				<li><a href="products_garments.html"><i class="icon-chevron-right"></i>Boxers (10)</a></li>												
+				<li><a href="products_garments.html"><i class="icon-chevron-right"></i>Tracks (20)</a></li>												
+			</ul>
+			</li>
+			<li><a href="products.html">SALE (145)</a></li>
+		</ul>
+		<br/>
+			<div class="thumbnail">
+				<img src="..//images/payment_methods.png" title="" alt="Payments Methods">
+				<div class="caption">
+				  <h5>Payment Methods</h5>
+				</div>
+			  </div>
+	</div>
+<!-- Sidebar end=============================================== -->
+	<div class="span9">
+    <ul class="breadcrumb">
+		<li><a href="../../index.html">Home</a> <span class="divider">/</span></li>
+		<li class="active">Terms and Conditions</li>
+    </ul>
+	<h3>LEVI STRAUSS & CO.’s Terms and Conditions</h3>
+	These online Terms and Conditions of Use were last updated on January 3, 2014.	
+	<hr class="soft"/>
+	<h5>1. Ownership of Websites, Content and Trademarks</h5><br/>
+	<p>
+	Our Websites are owned and controlled by Levi Strauss & Co., and unless otherwise agreed in writing, all materials on Our Websites, including text, graphics, information, content, images, illustrations, designs, icons, photographs, video clips, sounds, music, artwork, computer code and other materials, and the copyrights, trademarks, trade dress and/or other intellectual property rights in such materials (collectively, the “Content”), are owned, controlled and/or licensed by Levi Strauss & Co.
+	<br>
+	<br>
+The Websites and Content are intended solely for personal, non-commercial use.  You may download or copy the Content and other downloadable materials displayed on the Websites for your personal use only.  No right, title or interest in any downloaded or copied Content is transferred to you as a result of any such downloading or copying.  You may not reproduce (except as noted above), publish, transmit, distribute, display, perform, alter, modify, create derivative works from, sell or exploit or otherwise use any of the Content or the Websites for any public or commercial purpose.
+<br>
+<br>
+Certain trademarks, trade names, service marks and logos used or displayed on this Website are registered and unregistered trademarks, trade names and service marks of Levi Strauss & Co. and its affiliates. Other trademarks, trade names and service marks used or displayed on this Website are the registered and unregistered trademarks, trade names and service marks of third parties. Nothing contained on any Website grants or should be construed as granting, by implication, estoppel, or otherwise, any license or right to you to use any such trademarks, trade names, service marks or logos displayed on such Website.
+</p>
+<h5>2. Privacy Policy</h5><br/>
+<p>
+Nullam a vulputate leo. Nulla tristique metus eros. Curabitur ultrices commodo mauris, sit amet faucibus lectus fermentum in. Nulla eleifend, augue hendrerit tempus faucibus, diam lacus aliquet urna, eget facilisis turpis risus quis arcu. Cras placerat suscipit sem, ac consequat dui iaculis eu. Cras elit enim, adipiscing lobortis rutrum ac, vehicula nec massa. Praesent pharetra ligula ac erat venenatis feugiat. Quisque id nulla mi. Mauris at orci nec nisi eleifend auctor. Mauris placerat consectetur tincidunt. Nam eu tellus vitae dolor vestibulum commodo. Etiam tristique, urna ac convallis laoreet, enim enim aliquet neque, id cursus risus nulla sed ligula. Nunc quam libero, accumsan vitae consequat at, sollicitudin eget mi. Phasellus in molestie diam. Aliquam enim purus, tempor id sodales non, volutpat eu diam. Donec eu nisl lacinia leo semper lobortis sed sit amet elit.
+</p>
+<h5>3 .   User–Generated Content Rules</h5><br/>
+<p>
+If you become aware of any violation of the User Generated Content Rules or other unacceptable behavior by any user, you should report such activity to Levi Strauss & Co. by emailing:  DMCA@levi.com. 
+<br>
+<br>
+If you post information on any of our sites, you are solely responsible for each User Communication that you post on any Website or transmit to other users and agree that you will not hold Levi Strauss & Co. responsible or liable for any User Communication from another user that you access on any Website.  Moreover, Levi Strauss & Co., reserves the right to delete any User Communication from any of our sites.
+<br>
+<br>
+Categories of prohibited User Communications are set forth below and reflect examples but are not intended to be exhaustive of what constitutes prohibited User Communications. </p>
+	<h5>4.   Copyright and Trademark Rules (DMCA)</h5><br/>
+<p>
+We are committed to complying with copyright and related laws, including the Digital Millennium Copyright Act (DMCA), and we require all users of the Website to comply with these laws.  Accordingly, you may not store any material or content on, or disseminate any material or content over, any Website in any manner that constitutes an infringement of third party intellectual property rights, including but not limited to, rights granted by copyright law. You may not post, modify, distribute, or reproduce in any way any copyrighted material, trademarks, or other proprietary information belonging to others without obtaining the prior written consent of the owner of such proprietary rights. It is our policy to terminate use privileges of any user who infringes the copyright rights of others upon receipt of proper notification to us by the copyright owner or the copyright owner’s legal agent.</p>
+<h5>5.   Accounts, Passwords and Security</h5><br/>
+<p>
+Certain features or services offered on or through Our Websites may require you to open an account (including setting up an Account ID and password) and to share Personally Identifiable Information (PII). Apart from the representations made in our Privacy Policy (see Section 2, above) regarding our protection of your information, you are solely and entirely responsible for maintaining the confidentiality of your account information, including your Account ID and password, and for any and all activity that occurs on or under your account.
+<br>
+<br>
+You agree to notify Levi Strauss & Co. immediately of any actual or potential unauthorized use of your account or password, or any other actual or potential breach of security. However, you may be held liable for losses incurred by Levi Strauss & Co. or any other user of or visitor to any of Our Websites due to someone else using your Account ID, password or account.
+	</p>
+	<h5>6.  Disclaimers; Limitations on Liability; Indemnity</h5><br/>
+<p>
+<strong>YOUR USE OF THIS SITE IS AT YOUR RISK. THE INFORMATION, MATERIALS AND SERVICES PROVIDED ON THIS WEB SITE ARE PROVIDED “AS IS” WITHOUT ANY WARRANTIES OF ANY KIND INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT OF INTELLECTUAL PROPERTY. THE FOREGOING EXCLUSIONS OF IMPLIED WARRANTIES DO NOT APPLY TO THE EXTENT PROHIBITED BY LAW. PLEASE REFER TO YOUR LOCAL LAWS FOR ANY SUCH PROHIBITIONS.</strong>
+<br>
+<br>
+Levi Strauss & Co. does not assume any responsibility for any damages to, or any viruses that may infect, your computer, telecommunication equipment, or other property caused by or arising from your access to, use of, or browsing any of Our Websites, or your downloading of any information or materials from any of Our Websites.</p>
+</div>
+</div></div>
+</div>
+<!-- MainBody End ============================= -->
+<!-- Footer ================================================================== -->
+	<div  id="footerSection">
+	<div class="container">
+		<div class="row">
+			<div class="span3">
+				<h5>ACCOUNT</h5>
+				<a href="login.html">YOUR ACCOUNT</a>
+				<a href="login.html">PERSONAL INFORMATION</a> 
+				<a href="login.html">TRACK AN ORDER</a> 
+				<a href="login.html">DISCOUNT</a>  
+				<a href="login.html">ORDER HISTORY</a>
+			 </div>
+			<div class="span3">
+				<h5>INFORMATION</h5>
+				<a href="contact.html">CONTACT</a>  
+				<a href="register.html">REGISTRATION</a>  
+				<a href="tac.html"> PRIVACY POLICY</a>  
+				<a href="tac.html">TERMS AND CONDITIONS</a> 
+				<a href="faq.html">FAQ</a>
+			 </div>
+			<div class="span3">
+				<h5>OUR OFFERS</h5>
+				<a href="products.html">NEW PRODUCTS</a> 
+				<a href="products.html">TOP SELLERS</a>  
+				<a href="products.html">SPECIAL OFFERS</a>  
+				<a href="products.html">MANUFACTURERS</a> 
+				<a href="products.html">SUPPLIERS</a> 
+			 </div>
+			<div id="socialMedia" class="span3 pull-right">
+				<h5>SOCIAL MEDIA </h5>
+				<a href="#"><img width="60" height="60" src="..//images/facebook.png" title="facebook" alt="facebook"/></a>
+				<a href="#"><img width="60" height="60" src="..//images/twitter.png" title="twitter" alt="twitter"/></a>
+				<a href="#"><img width="60" height="60" src="..//images/youtube.png" title="youtube" alt="youtube"/></a>
+			 </div> 
+		 </div>
+		 <br>
+		<center><p class="pull-middle">&copy; Shanmukh(Gohan) @ 2016</p></center>
+	</div><!-- Container End -->
+	</div>
+<!-- Footer Ends -->
+	<script src="..//js/jquery.js" type="text/javascript"></script>
+	<script src="..//js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="..//js/google-code-prettify/prettify.js"></script>
+	
+	<script src="..//js/bootstp.js"></script>
+    <script src="..//js/jquery.lightbox-0.5.js"></script>
+	
+	
+</body>
+</html>

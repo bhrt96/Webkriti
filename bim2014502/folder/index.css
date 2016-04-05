@@ -1,0 +1,35 @@
+body {
+	min-height: 2000px;
+}
+
+header {
+background:black ;
+height:100%;
+color:white;
+
+}
+
+.header{
+width: 100%;
+}
+
+.bg-1 {
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+color: white;
+}
+
+.images{
+width: 100%;
+}
+
+.images:hover{
+
+background: black;
+}
+
+
+

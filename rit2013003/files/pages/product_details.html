@@ -1,0 +1,445 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Levi's Online Store</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Levis Online Store">
+    <meta name="author" content="D.Shanmukh">
+	
+<!-- Bootstrap style --> 
+    <link id="callCss" rel="stylesheet" href="..//bootstp/bootstrap.min.css" media="screen"/>
+    <link href="..//css/base.css" rel="stylesheet" media="screen"/>
+<!-- Bootstrap style responsive -->	
+	<link href="..//css/bootstrap-responsive.min.css" rel="stylesheet"/>
+	<link href="..//css/font-awesome.css" rel="stylesheet" type="text/css">
+<!-- Google-code-prettify -->	
+	<link href="..//js/google-code-prettify/prettify.css" rel="stylesheet"/>
+<!-- fav and touch icons -->
+    <link rel="shortcut icon" href="..//images/levis.jpg">
+	<style type="text/css" id="enject"></style>
+  </head>
+<body>
+<div id="header">
+<div class="container">
+<div id="welcomeLine" class="row">
+	<div class="span6">Welcome<strong> User!</strong></div>
+	<div class="span6">
+	<div class="pull-right">
+		<a href="register.html"><span class="btn btn-mini btn-success"><i class="icon-user icon-white"></i> Sign Up </span> </a> 
+		<a href="product_summary.html"><span class="btn btn-mini btn-primary"><i class="icon-shopping-cart icon-white"></i> [ 3 ] Itemes in your cart </span> </a>
+		<span class="btn btn-mini">Rs. 3499.00</span>
+			
+	</div>
+	</div>
+</div>
+<!-- Navbar ================================================== -->
+<div id="logoArea" class="navbar">
+<a id="smallScreen" data-target="#topMenu" data-toggle="collapse" class="btn btn-navbar">
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+</a>
+  <div class="navbar-inner">
+    <a class="brand" href="../../index.html"><img src="..//images/logo.jpg" alt="Bootsshop" id = "img1"/></a>
+    <ul id="topMenu" class="nav pull-center">
+	<li class=""><a href="products.html">Products</a></li>
+	 <li class=""><a href="products.html">Specials Offer</a></li>
+	 <li class=""><a href="aboutus.html">About Us</a></li>
+	 <li class=""><a href="contact.html">Contact</a></li>
+	 	 <li class=""><a href="faq.html">FAQ's</a></li>
+	 <form class="form-inline navbar-search" method="post" action="products.html" >
+		<input id="srchFld" class="srchTxt" type="text" placeholder="      Search jeans, clothing and more ..."/> 
+		  <button type="submit" id="submitButton" class="btn btn-primary">Go</button>
+    </form>
+	</ul>
+	<ul id="topMenu" class="nav pull-right">
+	 <li class="">
+	
+	 <a href="#login" role="button" data-toggle="modal" style="padding-right:0"><span class="btn btn-large btn-success">Login</span></a>
+	<div id="login" class="modal hide fade in" tabindex="-1" role="dialog" aria-labelledby="login" aria-hidden="false" >
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+			<h3>Login Block</h3>
+		  </div>
+		  <div class="modal-body">
+			<form class="form-horizontal loginFrm">
+			  <div class="control-group">								
+				<input type="text" id="inputEmail" placeholder="Email">
+			  </div>
+			  <div class="control-group">
+				<input type="password" id="inputPassword" placeholder="Password">
+			  </div>
+			  <div class="control-group">
+				<label class="checkbox">
+				<input type="checkbox"> Remember me
+				</label>
+			  </div>
+			</form>		
+			<button type="submit" class="btn btn-success">Sign in</button>
+			<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+		  </div>
+	</div>
+	</li>
+    </ul>
+  </div>
+</div>
+</div>
+<div class = "container">
+	<div class = "row">
+		
+		<div class = "span1">
+		</div>
+		<div class = "span6">
+			<ul><li><u><strong>20% off</strong> orders of Rs.2500. <strong>40%</strong> off orders of Rs.5500+. Use Code: <font color: "red"><strong><i>Aproksha16</i></strong></font></u></li></ul>
+		</div>
+		<div class = "span5">
+			<ul><li> <u><strong>Free Shipping</strong> on Orders of Rs.3999+</u></li></ul>
+		</div>
+		<div class = "span1">
+		</div>
+	</div>
+</div>
+</div>
+<!-- Header End====================================================================== -->
+<div id="mainBody">
+	<div class="container">
+	<div class="row">
+<!-- Sidebar ================================================== -->
+	<div id="sidebar" class="span3">
+		<div class="well well-small"><a id="myCart" href="product_summary.html"><img src="..//images/ico-cart.png" alt="cart">3 Items in your cart  <span class="badge badge-warning pull-right">Rs. 3499</span></a></div>
+		<ul id="sideManu" class="nav nav-tabs nav-stacked">
+			<li class="subMenu open"><a> Men (295)</a>
+				<ul>
+				<li><a class="active" href="products.html"><i class="icon-chevron-right"></i>Jeans (100) </a></li>
+				<li><a href="products.html"><i class="icon-chevron-right"></i>Shorts (30)</a></li>
+				<li><a href="products.html"><i class="icon-chevron-right"></i>Shirts & T-shirts(75)</a></li>
+				<li><a href="products.html"><i class="icon-chevron-right"></i>Jackets (45)</a></li>
+				<li><a href="products.html"><i class="icon-chevron-right"></i>Skinny(50)</a></li>
+				<li><a href="products.html"><i class="icon-chevron-right"></i>Slim (15)</a></li>
+				</ul>
+			</li>
+			<li class="subMenu"><a> Women (140) </a>
+			<ul>
+				<li><a href="products_women.html"><i class="icon-chevron-right"></i>Jeans (45)</a></li>
+				<li><a href="products_women.html"><i class="icon-chevron-right"></i>Sweat Shirts (8)</a></li>												
+				<li><a href="products_women.html"><i class="icon-chevron-right"></i>Shorts & Carps (25)</a></li>	
+				<li><a href="products_women.html"><i class="icon-chevron-right"></i>Shirts & Tops  (45)</a></li>
+				<li><a href="products_women.html"><i class="icon-chevron-right"></i>Skinny (6)</a></li>												
+				<li><a href="products_women.html"><i class="icon-chevron-right"></i>Bootcut (5)</a></li>												
+				<li><a href="products_women.html"><i class="icon-chevron-right"></i>Boyfriend (6)</a></li>												
+			</ul>
+			</li>
+			<li class="subMenu"><a>Kids (195)</a>
+				<ul>
+				<li><a href="products_kids.html"><i class="icon-chevron-right"></i>Jeans & Pants (35)</a></li>
+				<li><a href="products_kids.html"><i class="icon-chevron-right"></i>Shirts and Outer wear (80)</a></li>												
+				<li><a href="products_kids.html"><i class="icon-chevron-right"></i>Shorts (35)</a></li>	
+				<li><a href="products_kids.html"><i class="icon-chevron-right"></i>Jackets  (45)</a></li>
+				<li><a href="products_kids.html"><i class="icon-chevron-right"></i>See All</a></li>												
+			</ul>
+			</li>
+			<li class="subMenu"><a>Accessories (120)</a>
+				<ul  style="display:none">
+				<li><a href="products_access.html"><i class="icon-chevron-right"></i>Bags (35)</a></li>
+				<li><a href="products_access.html"><i class="icon-chevron-right"></i>Shoes (80)</a></li>												
+				<li><a href="products_access.html"><i class="icon-chevron-right"></i>Belts (35)</a></li>	
+				<li><a href="products_access.html"><i class="icon-chevron-right"></i>Scarvers  (45)</a></li>
+				<li><a href="products_access.html"><i class="icon-chevron-right"></i>Wallets</a></li>												
+			</ul>
+			</li>
+			<li class="subMenu"><a>Garments (45)</a>
+				<ul  style="display:none">
+				<li><a href="products_garments.html"><i class="icon-chevron-right"></i>Underwears (15)</a></li>
+				<li><a href="products_garments.html"><i class="icon-chevron-right"></i>Boxers (10)</a></li>												
+				<li><a href="products_garments.html"><i class="icon-chevron-right"></i>Tracks (20)</a></li>												
+			</ul>
+			</li>
+			<li><a href="products.html">SALE (145)</a></li>
+		</ul>
+		<br/>
+			<div class="thumbnail">
+				<img src="..//images/payment_methods.png" title="" alt="Payments Methods">
+				<div class="caption">
+				  <h5>Payment Methods</h5>
+				</div>
+			  </div>
+	</div>
+<!-- Sidebar end=============================================== -->
+	<div class="span9">
+    <ul class="breadcrumb">
+    <li><a href="../../index.html">Home</a> <span class="divider">/</span></li>
+    <li><a href="products.html">Products</a> <span class="divider">/</span></li>
+    <li class="active">Product Details</li>
+    </ul>	
+	<div class="row">	  
+			<div id="gallery" class="span3">
+            <a href="..//images/product_details_1.jpg" title="Levi's Straight Fit Men's Jeans">
+				<img src="..//images/product_details_1.jpg" style="width:100%" alt="Levi's Straight Fit Men's Jeans"/>
+            </a>
+			<div id="myCarousel" class="moreOptopm carousel slide">
+                <div class="carousel-inner">
+                  <div class="item active">
+                   <a href="..//images/product_details_2.jpg"> <img style="width:29%" src="..//images/product_details_1.jpg" alt=""/></a>
+                   <a href="..//images/product_details_4.jpg"> <img style="width:29%" src="..//images/product_details_2.jpg" alt=""/></a>
+                   <a href="..//images/product_details_3.jpg" > <img style="width:29%" src="..//images/product_details_4.jpg" alt=""/></a>
+                  </div>
+                  <div class="item">
+                   <a href="..//images/product_details_5.jpg" > <img style="width:29%" src="..//images/product_details_3.jpg" alt=""/></a>
+                   <a href="..//images/product_details_5.jpg"> <img style="width:29%" src="..//images/product_details_5.jpg" alt=""/></a>
+                  </div>
+                </div>
+              </div>
+			  <br>
+			 <div>
+			  <div align = "center">
+				<span class="btn" ><i class=" icon-thumbs-up"></i></span>
+				<span class="btn" ><i class="icon-thumbs-down"></i></span>
+			  </div>
+			</div>
+			</div>
+			<div class="span6">
+				<h3>Levi's Straight Fit Men's Jeans  </h3>
+				<small>- Fit: Straight Fit</small>
+				
+				<hr class="soft"/>
+				<div>
+					<div class = "col-lg-12">
+						<p>Rating:- <i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star-half"></i> 4.5/5
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<i class="icon-pencil"></i><span class = "txt">Write A Review</span>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+						<i class="icon-heart"></i><span class = "txt">Add To Wishlist</span>
+						</p>
+					</div>
+					
+				</div>
+				
+				<hr class="soft"/>
+				<h4>75 items in stock</h4>
+				<strong><span>Color:-</span></strong> &nbsp;&nbsp;&nbsp;&nbsp;
+					  <select class="span2">
+						  <option>Blue</option>
+						  <option>Shaded</option>
+						  <option>Black</option>
+						</select>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<strong><span>Size:-</span></strong> &nbsp;&nbsp;&nbsp;&nbsp;
+					  <select class="span2">
+						  <option>28</option>
+						  <option>30</option>
+						  <option>32</option>
+						  <option>34</option>
+						</select>
+				
+				<hr class="soft"/>
+				<form class="form-horizontal qtyFrm">
+				  <div class="control-group">
+					<label class="control-label"><span><strong>Rs.    2099/-</strong><br><small>(Free Shipping)</small></span></label>
+					<div class="controls">
+					<input type="number" class="span1" placeholder="Qty."/>
+					  <button type="submit" class="btn btn-large btn-primary pull-right"> Add to cart <i class=" icon-shopping-cart"></i></button>
+					</div>
+				  </div>
+				</form>
+				
+				<hr class="soft clr"/>
+				<p>
+				<h4>Key Features</h4>
+				<ul>
+					<li>Easy returns </li>
+					<li>No need to Wash </li>
+				</ul>
+				</p>
+				<hr class="soft clr"/>
+				<h4>See it in <font color = "blue"><b>ACTION</b></font></h4>
+				<center>
+						<iframe src="https://www.youtube.com/embed/kVcUvbGB4kA"
+   						width="605" height="305" frameborder="0" allowfullscreen></iframe>
+						   
+				</center>
+				<br class="clr"/>
+			<a href="#" name="detail"></a>
+			<hr class="soft"/>
+			</div>
+			<div class="span9">
+            <ul id="productDetail" class="nav nav-tabs">
+              <li><a href="#home" data-toggle="tab">Product Details</a></li>
+              <li class = "active"><a href="#profile" data-toggle="tab">Related Products</a></li>
+            </ul>
+            <div id="myTabContent" class="tab-content">
+              <div class="tab-pane fade" id="home">
+			  <h4>Product Information</h4>
+                <table class="table table-bordered">
+				<tbody>
+				<tr class="techSpecRow"><th colspan="2"><strong><u>Jeans Details</u></strong></th></tr>
+				<tr><td >Brand Fit </td><td>Regular Fit</td></tr>
+				<tr><td >Fabric</td><td>100% Cotton</td></tr>
+				<tr><td>Pockets</td><td> 2 Patch Pockets at Back, 1 Coin Pocket, 2 Curved Pockets at Front8</td></tr>
+				<tr ><td>Belt Loops	</td><td> Yes</td></tr>
+				</tbody>
+				</table>
+				
+				<table class="table table-bordered">
+				<tbody>
+				<tr class="techSpecRow"><th colspan="2"><strong><u>Geneal Details</u></strong></th></tr>
+				<tr><td >Pattern</td><td>Solid</td></tr>
+				<tr><td >Occasion</td><td>Casual</td></tr>
+				<tr><td>Ideal For</td><td>Men's</td></tr>
+				</tbody>
+				</table>
+				
+				<table class="table table-bordered">
+				<tbody>
+				<tr class="techSpecRow"><th colspan="2"><strong><u>Additional Details</u></strong></th></tr>
+				<tr><td >Other Details</td><td>Washed Effect, Woven Pant</td></tr>
+				<tr><td >Model Details</td><td>This model has a height of 6 feet 0 inches and is wearing a Jeans of Size 32</td></tr>
+				<tr><td>Style Code</td><td>	00531-0087Blue</td></tr>
+				</tbody>
+				</table>
+              </div>
+			  
+		<div class="tab-pane fade active in" id="profile">
+		<div id="myTab">
+		 <center><h3>Related Products</h3><center>
+		</div>
+		<br class="clr"/>
+		<div class="tab-content">
+			<div class="tab-pane active">
+				<ul class="thumbnails">
+					<li class="span3">
+					  <div class="thumbnail">
+						<a href="product_details.html"><img src="..//images/related_1.jpg" alt=""/></a>
+						<div class="caption">
+						  <h5>Men's Regular Fit Jeans</h5>
+						  <p> 
+							<i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star-half"></i>
+						  </p>
+						  <h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">Rs. 2099</a></h4>
+						</div>
+					  </div>
+					</li>
+					<li class="span3">
+					  <div class="thumbnail">
+						<a href="product_details.html"><img src="..//images/related_2.jpg" alt=""/></a>
+						<div class="caption">
+						  <h5>Men's Slim Fit Jeans</h5>
+						  <p> 
+							<i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star-empty"></i>
+						  </p>
+						  <h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">Rs. 1799</a></h4>
+						</div>
+					  </div>
+					</li>
+					<li class="span3">
+					  <div class="thumbnail">
+						<a href="product_details.html"><img src="..//images/related_3.jpg" alt=""/></a>
+						<div class="caption">
+						  <h5>Men's Striped casual Shirt</h5>
+						  <p> 
+							<i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star-empty"></i><i class="icon-star-empty"></i>
+						  </p>
+						   <h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">Rs. 1099</a></h4>
+						</div>
+					  </div>
+					</li>
+					<li class="span3">
+					  <div class="thumbnail">
+						<a href="product_details.html"><img src="..//images/related_4.jpg" alt=""/></a>
+						<div class="caption">
+						  <h5>Men's Skinny Fit Jeans</h5>
+						  <p> 
+							<i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star-empty"></i>
+						  </p>
+						   <h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">Rs. 2299</a></h4>
+						</div>
+					  </div>
+					</li>
+					<li class="span3">
+					  <div class="thumbnail">
+						<a href="product_details.html"><img src="..//images/related_5.jpg" alt=""/></a>
+						<div class="caption">
+						  <h5>Men's Slim Fit trousers</h5>
+						  <p> 
+							<i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star-half"></i><i class="icon-star-empty"></i>
+						  </p>
+						   <h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">Rs. 2299</a></h4>
+						</div>
+					  </div>
+					</li>
+					<li class="span3">
+					  <div class="thumbnail">
+						<a href="product_details.html"><img src="..//images/related_6.jpg" alt=""/></a>
+						<div class="caption">
+						  <h5> Men's Solid Henley T-shirt</h5>
+						  <p> 
+							<i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i>
+						  </p>
+						   <h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">Rs. 2499</a></h4>
+						</div>
+					  </div>
+					</li>
+				  </ul>
+			<hr class="soft"/>
+			</div>
+		</div>
+				<br class="clr">
+					 </div>
+		</div>
+          </div>
+
+	</div>
+</div>
+</div> </div>
+</div>
+<!-- MainBody End ============================= -->
+<!-- Footer ================================================================== -->
+	<div  id="footerSection">
+	<div class="container">
+		<div class="row">
+			<div class="span3">
+				<h5>ACCOUNT</h5>
+				<a href="login.html">YOUR ACCOUNT</a>
+				<a href="login.html">PERSONAL INFORMATION</a> 
+				<a href="login.html">TRACK AN ORDER</a> 
+				<a href="login.html">DISCOUNT</a>  
+				<a href="login.html">ORDER HISTORY</a>
+			 </div>
+			<div class="span3">
+				<h5>INFORMATION</h5>
+				<a href="contact.html">CONTACT</a>  
+				<a href="register.html">REGISTRATION</a>  
+				<a href="tac.html"> PRIVACY POLICY</a>  
+				<a href="tac.html">TERMS AND CONDITIONS</a> 
+				<a href="faq.html">FAQ</a>
+			 </div>
+			<div class="span3">
+				<h5>OUR OFFERS</h5>
+				<a href="products.html">NEW PRODUCTS</a> 
+				<a href="products.html">TOP SELLERS</a>  
+				<a href="products.html">SPECIAL OFFERS</a>  
+				<a href="products.html">MANUFACTURERS</a> 
+				<a href="products.html">SUPPLIERS</a> 
+			 </div>
+			<div id="socialMedia" class="span3 pull-right">
+				<h5>SOCIAL MEDIA </h5>
+				<a href="#"><img width="60" height="60" src="..//images/facebook.png" title="facebook" alt="facebook"/></a>
+				<a href="#"><img width="60" height="60" src="..//images/twitter.png" title="twitter" alt="twitter"/></a>
+				<a href="#"><img width="60" height="60" src="..//images/youtube.png" title="youtube" alt="youtube"/></a>
+			 </div> 
+		 </div>
+		 <br>
+		<center><p class="pull-middle">&copy; Shanmukh(Gohan) @ 2016</p></center>
+	</div><!-- Container End -->
+	</div>
+<!-- Footer Ends -->
+	<script src="..//js/jquery.js" type="text/javascript"></script>
+	<script src="..//js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="..//js/google-code-prettify/prettify.js"></script>
+	
+	<script src="..//js/bootstp.js"></script>
+    <script src="..//js/jquery.lightbox-0.5.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+body{
+	margin: 0;
+	background: red;
+}
+
+#a{
+	position: absolute;
+	height: 80%;
+	width: 60%;
+	left: 20%;
+	top:18%;
+	background: #00FF00;
+	border: 10px dotted solid;
+	text-align: center;
+	font-size: 180%;
+}
+
+#x{
+	position: absolute;
+	height: 10%;
+	width: 60%;
+	left: 38%;
+	font-size: 300%;
+	font-family: Courier New;
+	color: #00FF00;
+}
+
+.b{
+	position: relative;
+	height: 40%;
+	width: 40%;
+	top: 10%;
+	margin: 1%;
+	display: inline-block;
+	background: red;
+	text-align: center;
+	font-family: Courier New;
+	color: #00FF00;
+}
+
+.b:hover{
+	background: yellow;
+}
